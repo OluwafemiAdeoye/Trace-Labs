@@ -3,7 +3,7 @@ This a a Selenium framework written in Java+TestNG that automates a user registr
 
 ## PROJECT CONFIGURATION/SETUP
 JDK 17
-IntellijIDEA
+##IntellijIDEA
 Maven Apache
 
 ## USAGE
