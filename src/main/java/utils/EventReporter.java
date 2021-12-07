@@ -54,7 +54,6 @@ public class EventReporter implements WebDriverEventListener {
      */
     @Override
     public void beforeNavigateTo(String url, WebDriver driver) {
-
     }
 
     /**
@@ -67,7 +66,7 @@ public class EventReporter implements WebDriverEventListener {
      */
     @Override
     public void afterNavigateTo(String url, WebDriver driver) {
-
+        System.out.println("Successfully navigated to" + driver.getCurrentUrl());
     }
 
     /**
@@ -164,8 +163,8 @@ public class EventReporter implements WebDriverEventListener {
     /**
      * Called before {@link WebElement#click WebElement.click()}.
      *
-     * @param element the WebElement being used for the action
-     * @param driver  WebDriver
+     * @param Webelement the WebElement being used for the action
+     * @param driver     WebDriver
      */
     @Override
     public void beforeClickOn(WebElement Webelement, WebDriver driver) {
