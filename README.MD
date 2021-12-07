@@ -3,8 +3,8 @@ This a a Selenium framework written in Java+TestNG that automates a user registr
 
 ## PROJECT CONFIGURATION/SETUP
 *JDK 17
-*IntellijIDEA
-*Maven Apache
+IntellijIDEA
+Maven Apache
 
 ## USAGE
 Navigate to the TestData.json file and provide data you will use for test in the given variables.
