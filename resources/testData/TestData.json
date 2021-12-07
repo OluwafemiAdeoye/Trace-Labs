@@ -1,0 +1,34 @@
+{
+  "Registrtaion Credentials": [
+    {
+      "validUsername": "QAEngineer",
+      "validemailAddress": "phemilegend@gmail.com",
+      "validPassword": "QAEngineerReg",
+      "validConfirmPassword": "QAEngineerReg"
+    },
+    {
+      "validUsername": "QAEngineer",
+      "existingemailAddress": "phemilegend@gmail.com",
+      "validPassword": "QAEngineerReg",
+      "validConfirmPassword": "QAEngineerReg"
+    },
+    {
+      "emptyUsername": "",
+      "emptyEmailAddress": "",
+      "emptyPassword": "",
+      "emptyConfirmPassword": ""
+    },
+    {
+      "wrongUsernameLength": "less",
+      "invalidEmailAddress": "sysf",
+      "wrongPasswordLength": "1234",
+      "wrongConfirmPasswordLength": "1234"
+    },
+    {
+      "wrongUsernameLength": "less",
+      "invalidEmailAddress": "sysf",
+      "validPassword": "TestPassword",
+      "wrongConfirmPassword": "PlayWithMe"
+    }
+  ]
+}
