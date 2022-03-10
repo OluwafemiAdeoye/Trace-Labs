@@ -28,6 +28,11 @@ public class BaseTest {
     @BeforeClass
     public void setUp() {
         WebDriverManager.chromedriver().setup();
+//        WebDriverManager.edgedriver().setup();
+//        WebDriverManager.firefoxdriver().setup();
+//        WebDriverManager.iedriver().setup();
+//        WebDriverManager.operadriver().setup();
+//        WebDriverManager.safaridriver().setup();
         driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
         driver.register(new EventReporter());
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

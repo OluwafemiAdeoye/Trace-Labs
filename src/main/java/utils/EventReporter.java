@@ -66,7 +66,7 @@ public class EventReporter implements WebDriverEventListener {
      */
     @Override
     public void afterNavigateTo(String url, WebDriver driver) {
-        System.out.println("Successfully navigated to" + driver.getCurrentUrl());
+        System.out.println("Successfully navigated to " + driver.getCurrentUrl());
     }
 
     /**

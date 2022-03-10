@@ -25,6 +25,8 @@ public class RegistrationPageTest extends BaseTest {
 //        Assert.assertEquals(registrationPage.getUsernameAlert(), "Username is invalid.");
         Thread.sleep(3000);
         registrationPage.setEmailAddress(emailAddress);
+//        WebDriverWait wait = new WebDriverWait(driver,30);
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(registrationPage.setEmailAddress())));
         Thread.sleep(3000);
         registrationPage.setPassword(password);
         Thread.sleep(3000);
